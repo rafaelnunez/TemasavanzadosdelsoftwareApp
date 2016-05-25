@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TemasavanzadosdelsoftwareApp</string>
+
+    <!--********************* LOGIN **************************-->
+
+    <string name="msg_iniciarSesion">Iniciar sesión</string>
+    <string name="msg_usuario">Usuario</string>
+    <string name="msg_contraseña">Contraseña</string>
+
+
+
+</resources>
+

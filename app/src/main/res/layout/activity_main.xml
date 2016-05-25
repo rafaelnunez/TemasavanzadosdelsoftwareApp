@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iv_logo"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/msg_usuario"
+        android:inputType="textCapWords|textCapCharacters"
+        android:textSize="23dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"    />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:textSize="23dp"
+        android:hint="@string/msg_contraseña"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"  />
+
+    <Button
+        android:background="@drawable/background_button"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/msg_iniciarSesion"
+        android:id="@+id/btn_aceptar"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:elevation="5dp"/>
+
+</LinearLayout>
