@@ -3,9 +3,16 @@
 
     <!--********************* LOGIN **************************-->
 
-    <string name="msg_iniciarSesion">Iniciar sesión</string>
+    <string name="msg_iniciarSesion">Ingresar</string>
     <string name="msg_usuario">Usuario</string>
     <string name="msg_contraseña">Contraseña</string>
+    <string name="msg_cambiarcontraseña">¿Olvidó la contraseña?</string>
+
+    <!--********************* CAMBIAR CONTRASEÑA **************************-->
+
+    <string name="msg_correo">Correo</string>
+    <string name="msg_recuperar">Recuperar</string>
+
 
 
 

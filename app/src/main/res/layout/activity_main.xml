@@ -23,10 +23,11 @@
         android:textSize="23dp"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="60dp"    />
+        android:layout_marginTop="60dp"
+        />
 
     <EditText
-        android:id="@+id/et_password"
+        android:id="@+id/et_contraseña"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:inputType="textPassword"
@@ -43,9 +44,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/msg_iniciarSesion"
-        android:id="@+id/btn_aceptar"
+        android:id="@+id/btn_ingresar"
         android:padding="16dp"
         android:textSize="20sp"
         android:elevation="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/background_login"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:text="@string/msg_cambiarcontraseña"
+        android:id="@+id/btn_olvido_contrasena"
+        android:layout_gravity="right" />
 
 </LinearLayout>
