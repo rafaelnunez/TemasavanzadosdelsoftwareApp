@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    style="@style/AppTheme_ActionBar">
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@drawable/background_login"
+    android:orientation="vertical">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_correo"
-        />
-
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:background="@drawable/background_button"
-        android:text="@string/msg_recuperar"
-        android:id="@+id/btn_recuperar_contrasena"
-        />
+        android:orientation="vertical" >
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/msg_correo"
+            android:id="@+id/et_correo"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_button"
+            android:text="@string/msg_recuperar"
+            android:id="@+id/btn_recuperar_contrasena"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>
